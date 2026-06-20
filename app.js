@@ -7,5 +7,23 @@
 // let y = 200;
 // z = x+y;
 // document.getElementById('Hamed2').innerHTML =  z;
+function Myclick(){
+    document.getElementById('Demo').innerHTML = 'Welcome Back To Canda';
+}
 
+let numberOne = 10;
+let numberTwo = 20;
+let numberThree = 30;
 
+function sumThreeNumbers() {
+    return numberOne + numberTwo + numberThree;
+}
+document.getElementById('result').innerHTML = sumThreeNumbers();
+document.addEventListener("DOMContentLoaded", () => {
+  const paragraph = document.getElementById("colorText");
+  const button = document.getElementById("colorButton");
+
+  button.addEventListener("click", () => {
+    paragraph.style.color = "red";
+  });
+});
